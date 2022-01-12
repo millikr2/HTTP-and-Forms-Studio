@@ -1,0 +1,60 @@
+
+*{
+}
+
+html{
+    height:100%;
+}
+
+body{
+        background-repeat: no-repeat;
+        background: linear-gradient( 180deg, rgb(219, 219, 219),rgb(87, 87, 87));
+        font-family:'Montserrat','Open Sans','Sans Serif';
+
+}
+
+.title{
+    text-transform: capitalize;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-thickness:.06em;
+    margin-bottom: 5vh;
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5vw;
+}
+
+form label{
+    padding:1vw;
+    font-size: 25px;
+    cursor: pointer;
+}
+#askLabel, #bingLabel{
+    padding-left:1.5vw;
+    padding-right:1.5vw;
+}
+
+.formButton{
+    font-size: 25px;
+    background-repeat:no-repeat;
+    background: linear-gradient( 90deg,rgb(251, 251, 248), rgb(179, 153, 153));
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 2em;
+    border: 1px solid;
+
+}
+.formButton:hover{
+    border-color:rgb(255, 255, 255);
+    cursor:pointer;
+}
+
+ input[type='radio'] { 
+     transform: scale(1.5); 
+ }
+ input[type='text']{
+     font-size: 25px;
+ }
